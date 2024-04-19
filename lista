@@ -1,12 +1,19 @@
 void main() {
-  isAuthorized('luiz');
+  isAuthorized('luz');
 }
 
 void isAuthorized(String nome) {
   List<String> auth = ['douglas','kleiton','luiz'];
   if(auth.contains(nome)){
+    print("▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄");
+    print("░░░░░░░░░░▀█▄▀▄▀██████░▀█▄▀▄▀████▀");
+    print("░░░░░░░░░░░░▀█▄█▄███▀░░░▀██▄█▄█▀");
     print("pode entrear vc esta Autorizado");
   }else{
+    print("░▄▌░░░░░░░░░▄");
+    print("████████████▄");
+    print("░░░░░░░░▀▐████");
+    print("░░░░░░░░░░░▐██▌");
     print("Rala peito vc NÂO esta autrizado");
   }
 }
