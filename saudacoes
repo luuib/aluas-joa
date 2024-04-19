@@ -1,0 +1,15 @@
+void salute({
+required String name,
+String? sep,
+int? age
+}){
+  print('Saudaçoes do ${name}');
+  if (sep != null) {
+    print(sep * 25);
+  }
+  if(age != null) {
+    print(age);
+  }
+  print(DateTime.now());
+}
+
