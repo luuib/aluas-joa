@@ -26,7 +26,7 @@ class Celular:
             print("Por favor, ligue o celular primeiro.")
 
 # Exemplo de uso:
-meu_celular = Celular("Samsung", "Galaxy S21", 50)
+meu_celular = Celular("Iphone ", "s15", 50)
 meu_celular.ligar()
 meu_celular.despertar()
 meu_celular.carregar()
