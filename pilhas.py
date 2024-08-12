@@ -1,5 +1,5 @@
 class Stack:
-    def __int__(self):
+    def __init__(self):
         self.items = []
 
     def isEmpyt(self):
